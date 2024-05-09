@@ -32,9 +32,9 @@ Over the past decades, text classification underwent remarkable evolution across
 > **data**: contain graph data, survey data, and text corpus; \
 > **data_collection**: contain scripts for scraping data and processing text corpus; \
 > **baselines**: source code of GNNs and LMs; \
-> **config**: the config files. \
+> **config**: the config files.
 
 #### Processing Steps
-> Data collections: Collect raw data from arXiv.
-> Preprocessing data: Generate co-graphs and text graphs.
-> Validation: test GNNs and LMs.
+> **Data Collection**: Collect raw data from arXiv. \
+> **Data Construction**: Generate co-graphs and text graphs. \
+> **Data Evaluation**: Validate the dataset via GNNs and LMs.
